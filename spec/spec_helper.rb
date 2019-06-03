@@ -1,5 +1,6 @@
 require_relative '../config/environment.rb'
 require 'rack/test'
+require '../views/index.rb'
 RACK_ENV = "test"
 ENV["RACK_ENV"] = "test"
 
